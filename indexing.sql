@@ -15,3 +15,4 @@ CREATE DATABASE "indexed_cars" WITH OWNER "indexed_cars_user";
 \i scripts/car_model_data.sql;
 \i scripts/car_model_data.sql;
 \i scripts/car_model_data.sql;
+SELECT DISTINCT "make_title" FROM "car_models" WHERE "make_code" = 'LAM';
